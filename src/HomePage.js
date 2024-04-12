@@ -14,8 +14,8 @@ function HomePage() {
         backgroundImage: 'url("https://img.freepik.com/free-photo/selective-closeup-shot-green-swiss-cheese-monstera-leaf_181624-18021.jpg?t=st=1712950854~exp=1712954454~hmac=915b24d2120e450cf734f20e7a7b6a2637f38e8224bfb9d64f4aec1e118b398c&w=1380")',
         backgroundSize: '100% 100%',
         backgroundPosition: 'center',
-        backgroundColor: 'rgba(255, 255, 255, 0.5)', // Прозрачность для эффекта замороженного стекла
-        boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)', // Свечение вокруг элемента
+        backgroundColor: 'rgba(255, 255, 255, 0.5)',
+        boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)',
       },
       glassmorphismStyle: {
         display: 'flex',
@@ -26,10 +26,10 @@ function HomePage() {
         margin: '20px',
         padding: '20px',
         borderRadius: '10px',
-        backgroundColor: 'rgba(255, 255, 255, 0.2)', // Прозрачный белый фон
-        backdropFilter: 'blur(10px)', // Размытие для эффекта замороженного стекла
-        boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)', // Свечение вокруг элемента
-        border: '1px solid rgba(255, 255, 255, 0.3)', // Светлый контур для усиления эффекта
+        backgroundColor: 'rgba(255, 255, 255, 0.2)',
+        backdropFilter: 'blur(10px)',
+        boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
+        border: '1px solid rgba(255, 255, 255, 0.3)',
       },
     container: {
       fontFamily: 'Arial, sans-serif',
@@ -42,13 +42,13 @@ function HomePage() {
       display: 'flex',
       justifyContent: 'space-between',
       alignItems: 'center',
-      backgroundColor: '#76b852', // Основной цвет
+      backgroundColor: '#76b852',
       color: '#FFFFFF',
       padding: '20px',
     },
     logo: {
-      marginLeft: '20px', // Отступ для логотипа
-      fontSize: '24px', // Увеличенный размер текста
+      marginLeft: '20px',
+      fontSize: '24px',
     },
     nav: {
       display: 'flex',

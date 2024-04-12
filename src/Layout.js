@@ -13,13 +13,13 @@ const styles = {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    backgroundColor: '#76b852', // Основной цвет
+    backgroundColor: '#76b852',
     color: '#FFFFFF',
     padding: '20px',
   },
   logo: {
-    marginLeft: '20px', // Отступ для логотипа
-    fontSize: '24px', // Увеличенный размер текста
+    marginLeft: '20px',
+    fontSize: '24px',
   },
   nav: {
     display: 'flex',
